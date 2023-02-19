@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Market Web Homepage</title>
+	<style>
+		/* Add your own styles here */
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to Our Market!</h1>
+		<nav>
+			<ul>
+				<li><a href="#fruits">Fruits</a></li>
+				<li><a href="#vegetables">Vegetables</a></li>
+				<li><a href="#meat">Meat</a></li>
+				<li><a href="#dairy">Dairy</a></li>
+			</ul>
+			<div id="login-container">
+				<form>
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username">
+					
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+					
+					<button type="submit">Log In</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="fruits">
+			<h2>Fruits</h2>
+			<ul>
+				<li>Apples</li>
+				<li>Bananas</li>
+				<li>Oranges</li>
+			</ul>
+		</section>
+		
+		<section id="vegetables">
+			<h2>Vegetables</h2>
+			<ul>
+				<li>Carrots</li>
+				<li>Broccoli</li>
+				<li>Lettuce</li>
+			</ul>
+		</section>
+		
+		<section id="meat">
+			<h2>Meat</h2>
+			<ul>
+				<li>Beef</li>
+				<li>Chicken</li>
+				<li>Pork</li>
+			</ul>
+		</section>
+		
+		<section id="dairy">
+			<h2>Dairy</h2>
+			<ul>
+				<li>Milk</li>
+				<li>Cheese</li>
+				<li>Yogurt</li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Contact Us:</p>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message"></textarea><br><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</footer>
+	
+	<script>
+		// JavaScript code can go here
+	</script>
+</body>
+</html>
